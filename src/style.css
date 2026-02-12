@@ -32,6 +32,7 @@ nav > ul {
 }
 
 /* hero section */
+
 .hero {
     display: flex;
 }
@@ -69,4 +70,14 @@ button {
 
 .frame {
     width: 180px;
+}
+
+/* quote section */
+
+.quote {
+    padding: 64px;
+}
+
+.quote-author {
+    text-align: end;
 }
