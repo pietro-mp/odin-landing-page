@@ -81,3 +81,12 @@ button {
 .quote-author {
     text-align: end;
 }
+
+/* call section */
+
+.call-quote {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
