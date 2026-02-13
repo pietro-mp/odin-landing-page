@@ -144,12 +144,21 @@ button {
     background-color: #e5e7eb;
 }
 
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
 .quote > .container {
-    padding: 64px;
+    padding: 128px;
 }
 
 .quote-author {
     text-align: end;
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 /* call section */
