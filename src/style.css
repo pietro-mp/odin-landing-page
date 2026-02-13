@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.content {
+.container {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -17,12 +17,11 @@ body {
 
 /* header */
 
-header {
+header > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    background-color: #1f2937;
 }
 
 .header-logo {
@@ -39,7 +38,7 @@ nav > ul {
 
 /* hero section */
 
-.hero {
+.hero > .container {
     display: flex;
 }
 
@@ -53,7 +52,7 @@ button {
     align-self: flex-start;
 }
 
-.info {
+.info > .container {
     padding: 64px;
 }
 
@@ -80,7 +79,7 @@ button {
 
 /* quote section */
 
-.quote {
+.quote > .container {
     padding: 64px;
 }
 
