@@ -17,6 +17,10 @@ body {
 
 /* header */
 
+header {
+    background-color: #1f2937;
+}
+
 header > .container {
     display: flex;
     justify-content: space-between;
@@ -34,6 +38,12 @@ nav > ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
+    font-size: 18px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 /* hero section */
