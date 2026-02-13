@@ -61,7 +61,8 @@ a, .secondary-text {
     display: flex;
     gap: 64px;
     padding: 128px 0;
-    flex-basis: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .hero-left {
@@ -69,6 +70,7 @@ a, .secondary-text {
     flex-direction: column;
     justify-content: center;
     gap: 16px;
+    max-width: 50%;
 }
 
 .main-text {
@@ -84,7 +86,9 @@ a, .secondary-text {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
-    width: 100%;
+    aspect-ratio: 2 / 1;
+    width: 430px;
+    flex-shrink: 0;
 }
 
 button {
@@ -101,18 +105,21 @@ button {
 /* info section */
 
 .info > .container {
-    padding: 32px 0 128px 0;
+    padding: 48px 0 128px 0;
 }
 
 .info-header {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
+    font-weight: 900;
+    font-size: 36px;
 }
 
 .img-section {
     display: flex;
     justify-content: center;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .img-section > div {
