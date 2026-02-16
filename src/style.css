@@ -89,7 +89,6 @@ a, .secondary-text {
 }
 
 button {
-    align-self: flex-start;
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
@@ -97,6 +96,14 @@ button {
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.hero-button {
+    align-self: flex-start;
+}
+
+.call-button {
+    align-self: center;
 }
 
 /* info section */
